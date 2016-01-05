@@ -55,7 +55,8 @@ gulp.task 'lint', ->
 # Convert slim to html and move to dist
 gulp.task 'slim', ->
   gulp.src('*.slim')
-    .pipe slim pretty: true
+    .pipe slim
+      pretty: true
     .pipe gulp.dest 'dist'
 
 # Minify pngs and copy images to dist folder
