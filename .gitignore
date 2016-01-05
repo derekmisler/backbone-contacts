@@ -2,7 +2,7 @@ node_modules
 app/dist
 
 
-# Compiled source #
+#compiled source #
 ###################
 *.com
 *.class
@@ -39,3 +39,9 @@ app/dist
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# codekit #
+###########
+.sass-cache/
+.codekit-config.json
+config.codekit
